@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [HonorPlus]
 ## Notes: Adds tracking of Honor and kills/deaths in battlegrounds
+## Notes-ruRU: Добавляет слежение за честью и убийствами/смертями на полях боя
 ## Author: Adsertor
 ## OptionalDeps: 
 ## Dependencies: Titan

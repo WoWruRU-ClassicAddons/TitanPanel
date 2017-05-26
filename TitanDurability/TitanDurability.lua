@@ -215,7 +215,7 @@ function TitanPanelDurabilityButton_GetTooltipText()
             if (TitanGetVar(TITAN_DURABILITY_ID, "showallrepaircosts")) then
                 TitanDurability_totalRepairCost_temp10 = TitanDurability_totalRepairCost * 0.90;
                 TitanDurability_totalRepairCost_temp20 = TitanDurability_totalRepairCost * 0.80;
-                retstr = retstr.. "\nNormal ".. REPAIR_COST.. "\t".. TitanPanelDurability_GetTextGSC(TitanDurability_totalRepairCost);
+                retstr = retstr.. "\n" .. TITAN_DURABILITY_NORMAL .. REPAIR_COST.. "\t".. TitanPanelDurability_GetTextGSC(TitanDurability_totalRepairCost);
                 retstr = retstr.. "\n".. TITAN_DURABILITY_TOOLTIP_REPAIR_10.. ":\t".. TitanPanelDurability_GetTextGSC(TitanDurability_totalRepairCost_temp10);
                 retstr = retstr.. "\n".. TITAN_DURABILITY_TOOLTIP_REPAIR_20.. ":\t".. TitanPanelDurability_GetTextGSC(TitanDurability_totalRepairCost_temp20);
             else
@@ -293,7 +293,7 @@ function TitanPanelDurabilityButton_GetTooltipText()
                 if (TitanGetVar(TITAN_DURABILITY_ID, "showallrepaircosts")) then
                     TitanDurability_inventory_totalRepairCost_temp10 = TitanDurability_inventory_totalRepairCost * 0.90;
                     TitanDurability_inventory_totalRepairCost_temp20 = TitanDurability_inventory_totalRepairCost * 0.80;
-                    retstr = retstr.. "\nNormal ".. REPAIR_COST.. "\t".. TitanPanelDurability_GetTextGSC(TitanDurability_inventory_totalRepairCost);
+                    retstr = retstr.. "\n" .. TITAN_DURABILITY_NORMAL .. REPAIR_COST.. "\t".. TitanPanelDurability_GetTextGSC(TitanDurability_inventory_totalRepairCost);
                     retstr = retstr.. "\n".. TITAN_DURABILITY_TOOLTIP_REPAIR_10.. ":\t".. TitanPanelDurability_GetTextGSC(TitanDurability_inventory_totalRepairCost_temp10);
                     retstr = retstr.. "\n".. TITAN_DURABILITY_TOOLTIP_REPAIR_20.. ":\t".. TitanPanelDurability_GetTextGSC(TitanDurability_inventory_totalRepairCost_temp20);
                 else
@@ -324,7 +324,7 @@ function TitanPanelDurabilityButton_GetTooltipText()
             	TitanDurability_repaircost_complete = TitanDurability_totalRepairCost + TitanDurability_inventory_totalRepairCost;
                 TitanDurability_totalRepairCost_complete_temp10 = TitanDurability_repaircost_complete * 0.90;
                 TitanDurability_totalRepairCost_complete_temp20 = TitanDurability_repaircost_complete * 0.80;
-                retstr = retstr.. "\nNormal ".. REPAIR_COST.. "\t".. TitanPanelDurability_GetTextGSC(TitanDurability_repaircost_complete);
+                retstr = retstr.. "\n" .. TITAN_DURABILITY_NORMAL .. REPAIR_COST.. "\t".. TitanPanelDurability_GetTextGSC(TitanDurability_repaircost_complete);
                 retstr = retstr.. "\n".. TITAN_DURABILITY_TOOLTIP_REPAIR_10.. ":\t".. TitanPanelDurability_GetTextGSC(TitanDurability_totalRepairCost_complete_temp10);
                 retstr = retstr.. "\n".. TITAN_DURABILITY_TOOLTIP_REPAIR_20.. ":\t".. TitanPanelDurability_GetTextGSC(TitanDurability_totalRepairCost_complete_temp20);
             else
@@ -461,7 +461,7 @@ function TitanPanelRightClickMenu_PrepareDurabilityMenu()
 	TitanPanelRightClickMenu_AddSpacer();
 
 	info = {};
-	info.text = "Normal ".. REPAIR_COST;
+	info.text = TITAN_DURABILITY_NORMAL .. REPAIR_COST;
 	info.value = "showrepaircost";
 	info.func = TitanPanelDurability_Toggle;
 	info.checked = TitanGetVar(TITAN_DURABILITY_ID, "showrepaircost");

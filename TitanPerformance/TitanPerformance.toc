@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Performance]
 ## Notes: Adds FPS and Garbage collection information to Titan Panel
+## Notes-ruRU: Добавляет информацию о кадрах в секунду и используемой памяти на Титан Панель
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

@@ -1,6 +1,7 @@
 ## Interface: 11100
 ## Title: Titan Panel [Durability] continued v1.07a
 ## Notes: A Titan Plugin to let you know your durability.
+## Notes-ruRU: Плагин для Титан Панели позволяющий узнать о целостности вашей экипировки.
 ## Author: tekkub, jth
 ## SavedVariables:
 ## OptionalDeps:

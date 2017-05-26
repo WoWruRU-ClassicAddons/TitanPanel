@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Money]
 ## Notes: Adds current and session gold earnings/losses to Titan panel
+## Notes-ruRU: Добавляет информацию о вашей прибыли/убытках (золото) на Титан Панель
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

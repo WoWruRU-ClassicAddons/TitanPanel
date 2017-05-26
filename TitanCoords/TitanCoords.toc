@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Coords]
 ## Notes: Adds Co-Ordinates and location information to Titan Panel
+## Notes-ruRU: Добавляет координаты и информацию о вашем местоположении на Титан Панель.
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

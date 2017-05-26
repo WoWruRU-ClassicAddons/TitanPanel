@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [LootType]
 ## Notes: Adds group loot information to Titan Panel
+## Notes-ruRU: Добавляет информацию о добыче в группе на Титан Панель
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

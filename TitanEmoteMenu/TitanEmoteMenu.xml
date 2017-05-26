@@ -2,6 +2,7 @@
 ..\FrameXML\UI.xsd">
 	<Script file="Localization.lua"/>
 	<Script file="EmoteData.EN.lua"/>
+	<Script file="EmoteData.RU.lua"/>
 	<Script file="EmoteData.FR.lua"/>
 	<Script file="EmoteData.DE.lua"/>
 	<Script file="TitanEmoteMenu.lua"/>

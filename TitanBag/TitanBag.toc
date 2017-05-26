@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Bag]
 ## Notes: Adds bag and free slot information to Titan Panel
+## Notes-ruRU: Добавляет отображение информации о сумках на Титан Панель.
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

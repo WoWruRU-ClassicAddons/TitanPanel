@@ -8,6 +8,7 @@ TITAN_DURABILITY_MENU_INVENTORYINTP = "Inventory durability";
 TITAN_DURABILITY_NUDE = "You are naked!";
 TITAN_DURABILITY_AND = "and";
 TITAN_DURABILITY_OR = "or";
+TITAN_DURABILITY_NORMAL = "Normal ";
 TITAN_DURABILITY_DURABILITYTEXT = "^Durability (%d+) / (%d+)$";
 
 TITAN_DURABILITY_MENU_DURABILITY = "durability";
@@ -15,6 +16,29 @@ TITAN_DURABILITY_MENU_REPAIRCOSTLOWESTINTP = "Lowest item";
 TITAN_DURABILITY_MENU_REPAIRCOST10 = "10% discount";
 TITAN_DURABILITY_MENU_REPAIRCOST20 = "20% discount";
 TITAN_DURABILITY_MENU_ALLDISCOUNTS = "All discounts on tooltip";
+
+-- Version : Russian ( by Maus )
+
+if ( GetLocale() == "ruRU" ) then
+
+	TITAN_DURABILITY_MENU_ITEMS = "Подробно о предметах";
+	TITAN_DURABILITY_MENU_ITEMS_DAMAGED = "Только поврежденные предметы";
+	TITAN_DURABILITY_MENU_GUY = "Скрыть стандартное окно прочности";
+	TITAN_DURABILITY_MENU_INVENTORY = "Прочность инвентаря";
+	TITAN_DURABILITY_MENU_INVENTORYINTP = "Прочность инвентаря";
+	TITAN_DURABILITY_NUDE = "Вы голый!";
+	TITAN_DURABILITY_AND = "и";
+	TITAN_DURABILITY_OR = "или";
+	TITAN_DURABILITY_NORMAL = "Нормальная ";
+	TITAN_DURABILITY_DURABILITYTEXT = "^Прочность (%d+) / (%d+)$";
+
+	TITAN_DURABILITY_MENU_DURABILITY = "Прочность";
+	TITAN_DURABILITY_MENU_REPAIRCOSTLOWESTINTP = "Самый низкий предмет";
+	TITAN_DURABILITY_MENU_REPAIRCOST10 = "10% скидка";
+	TITAN_DURABILITY_MENU_REPAIRCOST20 = "20% скидка";
+	TITAN_DURABILITY_MENU_ALLDISCOUNTS = "Все скидки на всплывающей подсказке";
+
+end
 
 --- German/Deutsch by jth ---
 
@@ -28,6 +52,7 @@ if ( GetLocale() == "deDE" ) then
     TITAN_DURABILITY_NUDE = "Du bist nackt!";
     TITAN_DURABILITY_AND = "und";
     TITAN_DURABILITY_OR = "oder";
+	TITAN_DURABILITY_NORMAL = "Normal ";
 	TITAN_DURABILITY_DURABILITYTEXT = "^Haltbarkeit (%d+) / (%d+)$";
 
 	TITAN_DURABILITY_MENU_DURABILITY = "Haltbarkeit";
@@ -38,7 +63,7 @@ if ( GetLocale() == "deDE" ) then
 
 end
 
---- French/Fran�ais by Halrik / jth / Sasmira ---
+--- French/Franзais by Halrik / jth / Sasmira ---
 
 if ( GetLocale() == "frFR" ) then
 
@@ -47,6 +72,7 @@ if ( GetLocale() == "frFR" ) then
     TITAN_DURABILITY_NUDE = "Vous \195\170tes tout nu!";
     TITAN_DURABILITY_AND = "et";
     TITAN_DURABILITY_OR = "ou";
+	TITAN_DURABILITY_NORMAL = "Normal ";
 	TITAN_DURABILITY_DURABILITYTEXT = '^Durabilit\195\169 (%d+) / (%d+)$';
 
 	TITAN_DURABILITY_MENU_DURABILITY = "Durabilit\195\169";

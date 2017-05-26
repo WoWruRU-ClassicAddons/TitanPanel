@@ -362,7 +362,9 @@ function Localize()
 	TitanLocalizeEN();
 	
 	local locale = GetLocale();
-	if ( locale == "deDE" ) then
+	if ( locale == "ruRU" ) then
+		TitanLocalizeRU();
+	elseif ( locale == "deDE" ) then
 		TitanLocalizeDE();
 	elseif ( locale == "frFR" ) then
 		TitanLocalizeFR();

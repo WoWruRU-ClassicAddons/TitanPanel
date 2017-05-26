@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Rider]
 ## Notes: Adds the auto changing of riding enchanted inventory items when you mount
+## Notes-ruRU: Добавляет авто изменение экипировки на зачарованную к скорости передвижения верхом когда вы на ездовом животном.
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

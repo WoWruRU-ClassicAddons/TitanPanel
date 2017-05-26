@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Clock]
 ## Notes: Adds a clock to Titan Panel
+## Notes-ruRU: Добавляет часы на Титан Панель
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

@@ -1,6 +1,7 @@
 ## Interface: 11000
 ## Title: Titan Panel [Friends]
 ## Notes: A simple friends list for the Titan Panel AddOn.
+## Notes-ruRU: Список друзей для Титан Панели.
 ## Author: Kragus | Windrunner | Kiltek |
 ## SavedVariables: TitanFriends_showoffline,TitanFriends_showclass,TitanFriends_showignored
 ## OptionalDeps: 

@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [XP]
 ## Notes: Adds information to Titan Panel about XP earned and time to level
+## Notes-ruRU: Добавляет информацию о вашем опыте на Титан Панель
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

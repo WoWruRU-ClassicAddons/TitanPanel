@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Ammo]
-## Notes: Adds an ammo monitor to Titan Panel. 
+## Notes: Adds an ammo monitor to Titan Panel.
+## Notes-ruRU: Добавляет отображение боеприпасов на Титан Панели.
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

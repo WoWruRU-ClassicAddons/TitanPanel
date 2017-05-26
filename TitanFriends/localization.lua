@@ -16,6 +16,23 @@ TITAN_FRIENDS_HELP[3] = "|cff68ccef".."/titanfriends showignored ".."|cffffffff"
 TITAN_FRIENDS_HELP[4] = "|cff68ccef".."/titanfriends showclass ".."|cffffffff".." Toggles showing your friends class";
 
 
+-- Version : Russian ( by Maus )
+if ( GetLocale() == "ruRU" ) then
+	TITAN_FRIENDS_MENU_TEXT = "Титан друзья"
+	TITAN_FRIENDS_BUTTON_LABEL = "Друзья: "
+	TITAN_FRIENDS_TOOLTIP_ONLINE = "В сети"
+	TITAN_FRIENDS_TOOLTIP_OFFLINE = "Не в сети"
+	TITAN_FRIENDS_TOOLTIP_IGNORE = "Список игнорируемых"
+	TITAN_FRIENDS_MENU_WHISPER = "Шепот"
+	TITAN_FRIENDS_MENU_INVITE = "Пригласить"
+	TITAN_FRIENDS_MENU_REMOVE = "Удалить"
+	TITAN_FRIENDS_TOOLTIP = "Титан друзья <вер"..TITAN_FRIENDS_VERSION..">";
+	TITAN_FRIENDS_HELP[1] = "Титан друзья <вер"..TITAN_FRIENDS_VERSION.."> - Slash Commands:";
+	TITAN_FRIENDS_HELP[2] = "|cff68ccef".."/titanfriends showoffline ".."|cffffffff".." Вкл/Выкл показ друзей не в сети";
+	TITAN_FRIENDS_HELP[3] = "|cff68ccef".."/titanfriends showignored ".."|cffffffff".." Вкл/Выкл показ списка игнорируемых";	
+	TITAN_FRIENDS_HELP[4] = "|cff68ccef".."/titanfriends showclass ".."|cffffffff".." Вкл/Выкл показ класс ваших друзей";
+end
+
 -- German localization by ven
 if ( GetLocale() == "deDE" ) then
 	TITAN_FRIENDS_MENU_TEXT = "Freunde"

@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Repair]
 ## Notes: Adds the ability to auto repair items and invemntory at vendors
+## Notes-ruRU: Добавляет возможность автоматического ремонта надетых на вас вещей и предметов в инвентаре.
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 

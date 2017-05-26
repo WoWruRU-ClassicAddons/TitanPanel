@@ -1,6 +1,7 @@
 ## Interface: 11200
 ## Title: Titan Panel [Regen]
 ## Notes: Adds a regen monitor to Titan panel to show HP/MANA regen
+## Notes-ruRU: Добавляет информацию о восстановлении вашего здоровья и маны на Титан Панель
 ## Author: Adsertor
 ## SavedVariables: 
 ## OptionalDeps: 
